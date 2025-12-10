@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #131516;
+  overflow: hidden;
+  padding: 24px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 24px;
+}
+
+aside > img {
+  border-radius: 12px;
+  height:95vh;
+}
+
+
